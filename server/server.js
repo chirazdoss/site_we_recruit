@@ -6,7 +6,7 @@ import router from './router/routes.js';
 import bodyParser from 'body-parser';
 const app = express();
  
-/** middlewares */
+/** middlewares */  
 app.use(express.json());
 app.use(cors());
 app.use(morgan('tiny'));  

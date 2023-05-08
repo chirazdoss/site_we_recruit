@@ -8,7 +8,8 @@ import img5 from '../../assets/images_conseil/stress.jpg';
 import img6 from '../../assets/images_conseil/preparer.jpg';
 import img7 from '../../assets/images_conseil/salaire.jpg';
 import img8 from '../../assets/images_conseil/q-r.png';
-import img9 from '../../assets/images_conseil/critere.jpe';
+import img9 from '../../assets/images_conseil/critere.jpeg';
+import img10 from '../../assets/images_conseil/signes.jpg';
 
 import { Link } from 'react-router-dom';
 function Pc1() {
@@ -19,9 +20,9 @@ function Pc1() {
       
         <div  className="row  my-5">
     
-            <div class="card col-5 mx-5 my-3"> 
+            <div class="card col-5 mx-5 my-3 px-0  "> 
               <Link to={'/page1'} >
-              <img src={img1} className="card-img-top" alt="postuler" /></Link>
+              <img src={img1} className="card-img-top  " alt="postuler" /></Link>
               <div class="card-body">
                 <Link to={'/page1'} class='des-link' >
                 <h5 class="card-title">Comment récruter à distance ?</h5></Link>
@@ -29,7 +30,7 @@ function Pc1() {
               </div>
             </div>
 
-            <div class="card col-5 mx-5 my-3">
+            <div class="card col-5 mx-5 my-3 px-0">
               <Link to={'/page2'} >
               <img src={img2} className="card-img-top" alt="preparer" />      
               </Link>
@@ -41,7 +42,7 @@ function Pc1() {
                 </div>
             </div>
 
-            <div class="card col-5 mx-5 my-3">
+            <div class="card col-5 mx-5 my-3 px-0">
               <Link to={'/page3'} >
               <img src={img3} className="card-img-top" alt="preparer" /> </Link>
               <div class="card-body">
@@ -51,7 +52,7 @@ function Pc1() {
               </div>
             </div>
 
-          <div class="card col-5 mx-5 my-3">
+          <div class="card col-5 mx-5 my-3 px-0">
             
           <Link to={'/page4'} >
           <img src={img4} className="card-img-top" alt="preparer" /> 
@@ -63,7 +64,7 @@ function Pc1() {
             </div>
           </div>
 
-          <div class="card col-5 mx-5 my-3">
+          <div class="card col-5 mx-5 my-3 px-0">
             <Link to={'/page5'} >
               <img src={img5} className="card-img-top" alt="preparer" /> 
             </Link>
@@ -79,7 +80,7 @@ function Pc1() {
 
 
   
-    <div class="card col-5 mx-5 my-3">
+    <div class="card col-5 mx-5 my-3 px-0">
       <Link to={'/page6'} >
       <img src={img6} className="card-img-top" alt="preparer" /> 
       </Link>
@@ -90,7 +91,10 @@ function Pc1() {
         Rédiger mon C.V., ma lettre de motivation, prospecter les entreprises, réussir mon entretien d’embauche… La recherche d’une entreprise, ça se prépare !</p>
       </div>
     </div>
-    <div class="card col-5 mx-5 my-3">
+
+
+
+    <div class="card col-5 mx-5 my-3 px-0">
     <Link to={'/page7'} >
     <img src={img7} className="card-img-top" alt="preparer" />     
 
@@ -103,8 +107,8 @@ function Pc1() {
   </div>
 
 
-  <div >
-    <div class="card col-5 mx-5 my-3">
+  
+    <div class="card col-5 mx-5 my-3 px-0">
     <Link to={'/page8'} >
     <img src={img8} className="card-img-top" alt="preparer" /> 
 </Link>
@@ -112,10 +116,12 @@ function Pc1() {
       <Link to={'/page8'} >
         <h5 class="card-title">Question reponse entretien d'embauche</h5></Link>
         <p class="card-text">Les questions posées par les recruteurs ont évidemment une raison d’être. Chaque réponse apportée par le candidat est une information supplémentaire obtenue par le recruteur. Il est évident que si tu n’es pas préparé à cet exercice, tu vas commettre des erreurs, sans forcément t’en rendre compte, et cela jouera en ta défaveur lors de l’entretien.</p>
-          </div>
+          
     </div>
   </div>
-    <div class="card col-5 mx-5 my-3">
+
+  
+    <div class="card col-5 mx-5 my-3 px-0">
       
     <Link to={'/page9'} >
     <img src={img9} className="card-img-top" alt="preparer" /> 
@@ -124,6 +130,19 @@ function Pc1() {
       <Link to={'/page9'} >
         <h5 class="card-title">Quels sont les principaux critères à évaluer lors d’un recrutement ?</h5></Link>
         <p class="card-text">Les recruteurs sont de plus en plus frileux et difficiles à convaincre. Les candidats à l’embauche doivent répondre à certains critères pour attirer l’œil des recruteurs. Un chasseur de tête nous livre quelques clés pour mieux comprendre et anticiper ces processus à rallonge.
+          </p>
+        </div>
+    </div>
+
+    <div class="card col-5 mx-5 my-3 px-0">
+      
+    <Link to={'/page10'} >
+    <img src={img10} className="card-img-top" alt="preparer" /> 
+    </Link>
+      <div class="card-body">
+      <Link to={'/page10'} >
+        <h5 class="card-title">Comment savoir si mon entretien d'embauche s'est bien passé ?</h5></Link>
+        <p class="card-text">Vous venez de passer un entretien d’embauche et, rien de plus normal, vous ne cessez de vous triturer les méninges en vous demandant si vous aurez le poste. Difficile de savoir si on a fait bonne impression. Pour vous aider à y voir plus clair, voici les signes qui suggèrent que votre candidature est en bonne place et que vous aurez le job. Paroles de recruteurs.
           </p>
         </div>
     </div>

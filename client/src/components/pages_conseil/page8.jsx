@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img8 from '../../assets/images_conseil/q-r.png';
 const P8 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P8 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Question reponse entretien d'embauche</h1>
-            <img src="assets/images_conseil/q-r.png" class='img-page1  p-4' alt="postuler" />
+            <img src={img8} class='img-page1  p-4' alt="postuler" />
         </center>
         <h2> Après avoir obtenu un rendez-vous pour un entretien</h2>
 <p>

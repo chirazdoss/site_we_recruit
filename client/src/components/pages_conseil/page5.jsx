@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img5 from '../../assets/images_conseil/stress.jpg';
 const P5 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P5 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Comment gérer son stress avant un entretien d'embauche ?</h1>
-            <img src="assets/images_conseil/stress.jpg" class='img-page1  p-4' alt="postuler" />
+            <img src={img5} class='img-page1  p-4' alt="postuler" />
         </center>
         <p>Être stressé avant un entretien d’embauche est tout à fait normal. Mais quand ce stress vous envahit jusqu’à l’angoisse, cela peut être un handicap. Alors, pour adopter la zen attitude lors de ce rendez-vous, voici 8 conseils pour apprendre à gérer votre stress.</p>
 <h2>1. Faites des exercices de respiration</h2>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img4 from '../../assets/images_conseil/postuler.jpg';
 const P4 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P4 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Comment postuler efficacement ?</h1>
-            <img src="assets/images_conseil/postuler.jpg" class='img-page1  p-4' alt="postuler" />
+            <img src={img4} class='img-page1  p-4' alt="postuler" />
         </center>
         <p>Toutefois, il y a ceux ou celles qui postulent par hasard sans même poser la question sur le profil demandé par le recruteur.
   <br/>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img9 from '../../assets/images_conseil/critere.jpeg';
 const P9 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P9 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Quels sont les principaux critères à évaluer lors d’un recrutement ?</h1>
-            <img src="assets/images_conseil/critere.jpe" class='img-page1  p-4' alt="postuler" />
+            <img src={img9} class='img-page1  p-4' alt="postuler" />
         </center>
         <p>Le capital humain est l’une des ressources les plus importantes des entreprises. Il représente le socle des organisations et contribue à l’atteinte de leurs objectifs. Il importe clairement de faire des choix stratégiques en matière de recrutement.</p>
 <p>Sur le marché de l’emploi, on retrouve une panoplie de profils et il n’est pas aisé pour les recruteurs de faire des choix optimaux. Focus sur les principaux critères à évaluer pour bien recruter !</p>

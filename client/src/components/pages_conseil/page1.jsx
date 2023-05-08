@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img1 from '../../assets/images_conseil/rec-distance.jpeg';
 const P1 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P1 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Comment récruter à distance ?</h1>
-            <img src="assets/images_conseil/rec-distance.jpeg" class='img-page1  p-4' alt="postuler" />
+            <img src={img1} class='img-page1  p-4' alt="postuler" />
         </center>
         <p>Le processus de recrutement à distance est exactement le même que celui en présentiel. Commençant par la définition des besoins du poste, la rédaction de l’annonce. Passant par l’entretien final jusqu’à son intégration. La seule différence dans ce cas est que tout le processus est digitalisé et se fait à distance. Cette méthode était utilisée avant la survenue de la crise sanitaire. Mais lors de son apparition, le recrutement a dû se faire exclusivement à distance pour éviter le rassemblement et respecter les distanciations sociales.</p>
 <h2>Pourquoi favoriser le recrutement à distance ?</h2>

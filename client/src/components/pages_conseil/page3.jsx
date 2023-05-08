@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img3 from '../../assets/images_conseil/re-entretien.jpg';
 const P3 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P3 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Réussir votre entretien</h1>
-            <img src="assets/images_conseil/re-entretien.jpg" class='img-page1  p-4' alt="postuler" />
+            <img src={img3} class='img-page1  p-4' alt="postuler" />
         </center>
         <p>Vous avez un entretien d’embauche ? Alors préparez-vous à devoir faire cet exercice de présentation encore très classique. Toutefois, se positionner avec assurance et se présenter sous son meilleur jour n’est pas chose facile pour tout le monde. Grâce aux conseils suivants, cet exercice vous paraîtra moins compliqué.</p>
 <h2>Analyser l’offre d’emploi</h2>

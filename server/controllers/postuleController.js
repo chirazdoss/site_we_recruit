@@ -40,19 +40,7 @@ export const Addpostule = async (req, res) => {
         postule.offre=offre
         const insertedpostule = await postule.save();
 
-        const adminUser = await userModel.findOne({isAdmin:true});
-        const notification= await adminUser.notification;
-        notification.push({
-            type :'apply-doctor-request',
-            message: `${newDoctor.firstName} ${newDoctor.lastName} has applied`,
-            data:{
-                doctorId: newDoctor._id,
-                name: newDoctor.firstName + " " +newDoctor.lastName,
-                onclickPath: '/admin/doctors',
-            },
-        })  ;
-        await userModel.findByIdAndUpdate(adminUser._id,{ notification });
-
+        
 
         res.status(201).json(insertedpostule);
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img2 from '../../assets/images_conseil/competence2.png';
 const P2 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P2 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Quelles compétences pour faire la différence demain ?</h1>
-            <img src="assets/images_conseil/competence2.png" class='img-page1'  alt="preparer" />
+            <img src={img2} class='img-page1'  alt="preparer" />
         </center>
         <p>Le monde du travail est en perpétuel mouvement : les compétences techniques ne cessent de se réinventer et de nouveaux métiers naissent tandis que d’autres disparaissent ou se transforment. Parallèlement, certaines compétences interpersonnelles deviennent des clés indispensables pour évoluer professionnellement. Notre étude Michael Page/IFOP « Les grandes tendances du marché du travail »* nous révèle les compétences essentielles à développer aujourd’hui pour rester compétitif demain.</p>
 <h2>Maîtriser les outils digitaux pour collaborer en étant éloigné</h2>

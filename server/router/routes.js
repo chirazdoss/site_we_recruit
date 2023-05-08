@@ -10,7 +10,6 @@ import * as contactController from '../controllers/contactController.js';
 import * as OffreController from'../controllers/offre.controller.js';
 import offreModel, { OffreSchema } from "../model/offre.model.js";
 import * as FormationController from '../controllers/formationController.js';
-import * as notificationController from '../controllers/notificationController.js';
 import Offres from "../model/offre.model.js";
 import * as PostuleController from '../controllers/postuleController.js';
 /** POST Methods */
@@ -175,33 +174,6 @@ router.route('/ajoutScore/:id').put(PostuleController.ajoutScore);
 router.route('/saveFormationParticipant').post(FormationController.SaveparticipationFormation);
 router.route('/getUser/:id').get(FormationController.getUser);
 
-router.post('/get-Notification',async(req,res)=>{
-  
-    try{
-  const user = await userModel.findOne({_id:req.body.userId});
-  const seennotification=user.seennotification;
-  const notification=user.notification;
-  seennotification.push(...notification);
-  const updatedUser = await user.save();
-  res.status(200).send({
-  success:true,
-  message:"notif read",
-  data:updatedUser,
-  });
-    }
-    catch (error) {
-      console.log(error);
-      res.status(500).send({
-        message: "error in notif",
-        success: false,
-        error,
-      });
-    }
-  ;
-
-
-
-});
 
 
 

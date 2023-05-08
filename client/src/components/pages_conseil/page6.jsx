@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img6 from '../../assets/images_conseil/preparer.jpg';
 const P6 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P6 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Préparer votre candidature</h1>
-            <img src="assets/images_conseil/preparer.jpg" class='img-page1  p-4' alt="postuler" />
+            <img src={img6} class='img-page1  p-4' alt="postuler" />
         </center>
         
 <h3>Quelle forme pour votre CV ?</h3>

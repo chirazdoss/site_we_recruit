@@ -37,6 +37,7 @@ import P6 from './components/pages_conseil/page6';
 import P7 from './components/pages_conseil/page7';
 import P8 from './components/pages_conseil/page8';
 import P9 from './components/pages_conseil/page9';
+import P10 from './components/pages_conseil/page10';
 import Detailsc from './components/private/condidat/details';
 import Detailsoffre from './components/private/recruteur/detailsoffre';
 import Postuler from './components/private/condidat/postuler/postuler';
@@ -69,13 +70,6 @@ const router = createBrowserRouter([
         path : '/pageNotification',
         element : <P11></P11>
     },
-
-
-
-
-
-
-
 
 
     {
@@ -219,6 +213,10 @@ const router = createBrowserRouter([
     {
         path : '/page9',
         element : <P9></P9>
+    },
+    {
+        path : '/page10',
+        element : <P10></P10>
     },
 ])
 

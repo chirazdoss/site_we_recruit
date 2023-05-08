@@ -1,5 +1,6 @@
 import React from 'react';
 import './page_conseil.css';
+import img7 from '../../assets/images_conseil/salaire.jpg';
 const P7 = () => {
  return (
     <div  class=" bg-lightt ">
@@ -8,7 +9,7 @@ const P7 = () => {
         <div class="content" >
         <center>
             <h1 class='text-color'>Négocier son premier salaire</h1>
-            <img src="assets/images_conseil/salaire.jpg" class='img-page1  p-4' alt="postuler" />
+            <img src={img7} class='img-page1  p-4' alt="postuler" />
         </center>
         <h2>L’entretien est aussi un moment de négociation, donc de compromis</h2>
 <h3>Deux erreurs à éviter :</h3>
